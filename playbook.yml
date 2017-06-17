@@ -29,8 +29,8 @@
     guac_sql_password: welcome1
   
   vars_files:
-    - vars/stack/nfs-mounts.yml
-    - vars/stack/couchpotato.yml
+    - vars/nfs-mounts.yml
+    - vars/couchpotato.yml
 
   pre_tasks:
     - shell:  echo "Starting..."
